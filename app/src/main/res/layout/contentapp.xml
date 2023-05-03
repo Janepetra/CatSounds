@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContentApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="7dp"
+        android:scrollbarStyle="insideInset"
+        android:outlineSpotShadowColor="@color/primary"
+        android:outlineAmbientShadowColor="@color/primary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/darkprimary"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/lightprimary"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 1"
+                    android:background="@drawable/cat1"/>
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 2"
+                    android:background="@drawable/cat2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/lightprimary"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 3"
+                    android:background="@drawable/cat3"/>
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 4"
+                    android:background="@drawable/cat4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/lightprimary"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 5"
+                    android:background="@drawable/cat5"/>
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 6"
+                    android:background="@drawable/cat6"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/lightprimary"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 7"
+                    android:background="@drawable/cat7"/>
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/accenttext"
+                    android:gravity="center|bottom"
+                    android:layout_margin="7dp"
+                    android:text="Meow 8"
+                    android:background="@drawable/cat8"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Design by Jane"
+                android:textSize="15dp"
+                android:background="@color/darkprimary"
+                android:textColor="@color/accenttext"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

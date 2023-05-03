@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:theme="@style/AppTheme.Dark">
+
+        <!-- masukkan toolbar disini -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.Dark"
+            app:title="Cat Sounds"
+            app:titleTextColor="@color/accenttext"
+            app:titleCentered="true"
+            android:elevation="25dp"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press the Button to Play the Cat Sound"
+        android:textSize="20dp"
+        android:background="@color/darkprimary"
+        android:textColor="@color/accenttext"
+        android:padding="3dp"/>
+
+    <include layout="@layout/contentapp" />
+
+</LinearLayout>
